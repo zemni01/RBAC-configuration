@@ -1,18 +1,18 @@
 {
-    "houssem-sp": {
+    "houssem-spss": {
         "CLIENT_ID": "0f9ceab2-22fa-47aa-8d49-0e91259b1c04",
         "CLIENT_SECRET": "PyR8Q~iIPxBb.xWmc6~qMhJiSe66cTNFkFWeCb4A",
         "TENANT_ID": "659e8963-4c1a-4723-bcb8-184b6fcfa6c4",
         "Groups": {
             "Group1": {
-                "CLUSTER_RG": "cluster-rg",
+                "CLUSTER_RG": "kubernetes-rg",
                 "CLUSTER_NAME": "test-cluster",
                 "AZURE_AD_GROUP_NAME": "alpha",
                 "GROUP_NAMESPACE": "alpha-namespace"
             },
             "Group2": {
-                "CLUSTER_RG": "cluster-rg-2",
-                "CLUSTER_NAME": "test-cluster2",
+                "CLUSTER_RG": "kubernetes-rg-2",
+                "CLUSTER_NAME": "test-cluster-2",
                 "AZURE_AD_GROUP_NAME": "beta",
                 "GROUP_NAMESPACE": "beta-namespace"
             }
@@ -24,14 +24,14 @@
         "TENANT_ID": "659e8963-4c1a-4723-bcb8-184b6fcfa6c4",
         "Groups": {
             "Group1": {
-                "CLUSTER_RG": "cluster-rg",
+                "CLUSTER_RG": "kubernetes-rg",
                 "CLUSTER_NAME": "test-cluster",
-                "AZURE_AD_GROUP_NAME": "alpha",
-                "GROUP_NAMESPACE": "alpha-namespace"
+                "AZURE_AD_GROUP_NAME": "beta",
+                "GROUP_NAMESPACE": "beta-namespace"
             },
             "Group2": {
-                "CLUSTER_RG": "cluster-rg-2",
-                "CLUSTER_NAME": "test-cluster2",
+                "CLUSTER_RG": "kubernetes-rg-2",
+                "CLUSTER_NAME": "test-cluster-2",
                 "AZURE_AD_GROUP_NAME": "alpha",
                 "GROUP_NAMESPACE": "alpha-namespace"
             }

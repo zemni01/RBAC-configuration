@@ -22,9 +22,9 @@ function Test-Namespace {
     if (Test-Path $kubeDir -PathType Container){
         Write-Host "Deleting .kube folder ... `n"
         Remove-Item $kubeDir -Recurse -Force
-        Write-Host ".kube folder deleted `n"
+        Write-Host "=> SUCCESS: .kube folder deleted `n"
     } else {
-        Write-Host "=> SUCCESS: .kube folder not found. `n"
+        Write-Host ".kube folder not found `n"
     }
   }
 
